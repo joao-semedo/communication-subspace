@@ -123,8 +123,8 @@ regressMethod = @ReducedRankRegress;
 % 'help crossval' for more information). Briefly, it takes as input the
 % the train and test sets, fits the model to the train set and uses it to
 % predict the test set, reporting the model's test performance. Here we
-% are used NSE (Normalized Squared Error) as the performance metric. MSE
-% (Mean Squared Error) is also available.
+% use NSE (Normalized Squared Error) as the performance metric. MSE (Mean
+% Squared Error) is also available.
 cvFun = @(Ytrain, Xtrain, Ytest, Xtest) RegressFitAndPredict...
 	(regressMethod, Ytrain, Xtrain, Ytest, Xtest, ...
 	numDimsUsedForPrediction, 'LossMeasure', 'NSE');
