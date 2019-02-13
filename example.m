@@ -12,16 +12,16 @@ load('mat_sample/sample_data.mat')
 % The process of identifying dimensions in the source activity space
 % depends on the method used. Here, we provide a few examples.
 
-% Sample data used here comes corresponds to V1 and V2 residuals (i.e.,
-% PSTHs have been subtracted from the full responses), in response to a
-% drifting grating. sample_data.mat contains two variables, X and Y_V2. X
-% contains the activity in the source population. It's a N-by-p matrix,
-% where N is the number of datapoints and p is the number of source
-% neurons. Y contains the activity in the target population. It's a N-by-K
-% matrix, where K is the number of target neurons. For the sample data,
-% N = 4000, p = 79 and K = 31. The N datapoints can come from different
-% time points or different trials. As an example, the 4000 datapoints used
-% here come from 400 trials that contained 10 time points each.
+% Sample data used here corresponds to V1 and V2 residuals (i.e., PSTHs
+% have been subtracted from the full responses), in response to a drifting
+% grating. sample_data.mat contains two variables, X and Y_V2. X contains
+% the activity in the source population. It's a N-by-p matrix, where N is
+% the number of datapoints and p is the number of source neurons. Y
+% contains the activity in the target population. It's a N-by-K matrix,
+% where K is the number of target neurons. For the sample data, N = 4000,
+% p = 79 and K = 31. The N datapoints can come from different time points
+% or different trials. As an example, the 4000 datapoints used here come
+% from 400 trials that contained 10 time points each.
 
 
 
