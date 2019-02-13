@@ -1,7 +1,7 @@
 # communication-subspace
 Code for "Cortical areas interact through a communication subspace", Semedo et al. (Neuron, 2019)
 
-v0.2b - 2019 - Joao Semedo - joao.d.semedo@gmail.com
+v0.2b
 
 This code pack requires the use of MATLAB version 2012b or newer.
 
