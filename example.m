@@ -90,7 +90,8 @@ q = 30;
 % For Ridge regression, the correct range for lambda can be determined
 % using:
 % 
-% lambda = GetRidgeLambda(X);
+% dMaxShrink = .5:.01:1;
+% lambda = GetRidgeLambda(dMaxShrink, X);
 % 
 % (See Elements of Statistical Learning, by Hastie, Tibshirani and
 % Friedman for more information.)
