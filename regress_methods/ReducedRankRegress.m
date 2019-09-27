@@ -131,7 +131,7 @@ end
 
 B = [ repmat( mean(Y,1), [1 numDims] )-m*B; B ];
 
-% If any neurons were excluded, just B to the correct size.
+% If any neurons were excluded, adjust B to the correct size.
 if any(idxs)
     
     auxIdxs = [1; auxIdxs+1];
